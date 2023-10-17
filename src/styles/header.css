@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    padding: 20px 236px;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--gray-1, #191C1F);
+    border-bottom: 2px solid var(--brand-1, #4C6EF5);
+    background: var(--gray-1, #191C1F);
+}
+
+.header__button{
+    display: flex;
+    height: 60px;
+    padding: 20px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid var(--gray-7, #F8F9FA);
+    background: var(--gray-1, #191C1F);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;    
+    color: var(--gray-7, #F8F9FA);
+}

@@ -1,0 +1,56 @@
+.banner{
+    display: flex;
+    padding: 250px 236px;
+    flex-direction: column;
+    align-items: center;
+    gap: 44px;
+    background: var(--gray-2);
+}
+
+.banner__title{
+    color: var(--gray-6, #EDF2FF);
+    text-align: center;
+    font-family: Inter;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+em{
+    color: var(--brand-1, #4C6EF5);
+    font-family: Inter;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.banner__text{
+    width: 770px;
+    color: var(--gray-4, #ADB5BD);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+}
+
+.banner__button{
+    display: flex;
+    height: 60px;
+    padding: 20px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid var(--brand-1, #4C6EF5);
+    background: var(--brand-1, #4C6EF5);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;    
+    color: var(--gray-7, #F8F9FA);
+}

@@ -1,14 +1,23 @@
 .header{
+    width: 100%;
+    z-index: 1;
+    position: fixed;
     display: flex;
-    padding: 20px 236px;
-    justify-content: space-between;
     align-items: center;
-    background: var(--gray-1, #191C1F);
+    justify-content: center;
     border-bottom: 2px solid var(--brand-1, #4C6EF5);
     background: var(--gray-1, #191C1F);
 }
 
+.header__content{
+    display: flex;
+    width: 1256px; 
+    padding: 20px 236px;
+    justify-content: space-between;
+}
+
 .header__button{
+
     display: flex;
     height: 60px;
     padding: 20px 32px;

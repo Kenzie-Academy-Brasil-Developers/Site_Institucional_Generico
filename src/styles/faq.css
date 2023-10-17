@@ -1,13 +1,22 @@
 .faq{
+    width: 100%;
     display: flex; 
-    padding: 82px 236px;
-    align-items: flex-start;
-    gap: 56px;
     justify-content: center;
     background: var(--gray-2);
 }
 
+.faq__content{
+    display: flex   ;
+    width: 1256px;
+    padding: 82px 236px;
+    align-items: flex-start;
+    gap: 56px;
+}
+
 .faq__invite{
+    position: sticky;
+    height: 300px;
+    top: 12rem;
     display: flex;
     width: 620px;
     padding-right: 0px;
@@ -16,6 +25,7 @@
     gap: 33px;
     flex-shrink: 0;
     align-self: stretch;
+    background: var(--gray-2);
 }
 
 .faq__invite--title{

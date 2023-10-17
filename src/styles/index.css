@@ -5,8 +5,3 @@
 @import url(faq.css);
 @import url(comments.css);
 @import url(footer.css);
-.body{
-width: 100%;
-display: flex;
-justify-content: center;
-}

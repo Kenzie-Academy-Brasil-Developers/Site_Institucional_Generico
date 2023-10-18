@@ -3,19 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Generic-Course</title>
     <link rel="stylesheet" href="src/styles/index.css">
     <link rel="stylesheet" href="src/styles/reset.css">
+    <script type="text/javascript" src="src/scripts/index.js" defer></script>
 </head>
 <body>
 
 <header class="header">
     <div class="header__content">
     <img src="src/assets/logo.svg" alt="logo generic course">
-    <button class="header__button">Entrar para próxima turma</button>   
+    <button type="button" class="header__button">Entrar para próxima turma</button>   
     </div>
     
 </header>
+
+<dialog class="modalController">
+    <div class="modal__container">
+        <div class="buttonAndTitle">
+          <button type="button" class="modal__close"><img src="src/assets/Frame 9.svg" alt=""></button>
+          <h1 class="modal__title">Cadastro</h1>  
+        </div>
+        
+        <p class="modal__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        <form action="">
+            <input type="text" placeholder="Digitar Email" class="modal__input">
+            <button class="modal__button">Entrar na lista para próxima turma</button>
+        </form>
+    </div>
+</dialog>
 
 <section class="banner">
     <div class="banner__content">
@@ -41,8 +57,8 @@
         <p class="faq__invite--title">Dúvidas frequentes</p>
         <p class="faq__invite--text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
         <button class="faq__invite--button">Entrar para próxima turma</button>  
-
         </div>
+
         <div class="faq__questions">
         <p class="faq__questions--title"> Quanto o custa o curso?</p>
         <p class="faq__questions--text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using</p>

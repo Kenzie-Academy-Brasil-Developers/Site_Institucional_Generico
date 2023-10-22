@@ -5,94 +5,401 @@
 @import url(faq.css);
 @import url(comments.css);
 @import url(footer.css);
+@import url(dialog.css);
 
+@media (max-width: 1024px) {
 
+  
+    .header__content{
+        padding: 20px 144px;
+    }
 
-  dialog {
-    padding: 0;
-    width: 504px;
-    height: 416px;
-    border: 2px solid var(--brand-1, #4C6EF5); 
-    background: var(--gray-2, #212529);
-  }
+    .header__button{
+        font-size: 14px;
+        height: 56px;
+    }
+    .banner__content {
+        padding: 210px 0px 86px;
+        gap: 24px;
+    }
+    .banner__title{
+        font-size: 32px;
+        width: 1024px;
+    }
+    .banner__text{
+       font-size:16px ; 
+       width: 600px;
+    }
+    .banner__button{
+        font-size: 14px;
+        height: 42px;
+    }
 
-  .modal__container {
-    width: 408px;
-    height: 336px;
-    display:flex;
-    align-items: center;
-    padding: 40px 28px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 31px;
-  }
+    .about{
+        width: 1024px;
+    }
+    .about__content{
+        width: 1024px;
+        gap: 0px;
+        padding: 82px 60px;
+    }
+    .about__title{
+    font-size: 30px;
+    width: 320px;
+    }
+    .about__text{
+        font-size: 15px;
+        width: 566px;
+    }
+    .faq__content{
+        padding: 68px 60px;
+        gap: 106px;
+    
+    }
+    .faq__invite{
+        width: 396px;
+        top: 9rem;
+    }
+    .faq__invite--title{
+        font-size: 30px;
+    }
+    .faq__invite--text{
+        font-size: 15px;
+    }
+    .faq__questions{
+        width: 279px;
+        gap: 24px;
+    }
+    .faq__questions--title{
+        width: 372px;
+        font-size: 25px;
+        text-align: left;
+    }
+    .faq__questions--text{
+        width: 347px;
+        font-size: 15px;
+    }
+    
+    .depoiments__students--identification{
+        width: 143px;
+    }
+    .depoiments__students--text {
+        font-size: 14px;
+        width: 342px;
+    }
+    .depoiments__students--name{
+        font-size: 25px;
+    } 
+    .depoiments__students--class{
+        font-size: 12px;
+    }
+    .comments__content{
+        gap: 0px;
+        padding: 82px 60px;
+    }
+    .comments__box{
+        width: 236px;
+        height: 254px;
+        padding: 36px 52px;
+    }
+    .comments__depoiments{
+        width: 550px;
+    }
+    .comments__box--title{
+        font-size: 25px;
+    }
+    .comments__box--text{
+        font-size: 15px;
+    }
+    }
 
-  .modal__title{
-    color: var(--gray-7, #F8F9FA);
-    text-align: center;
-    font-family: Inter;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 160%; 
-  }
+@media (max-width:768px){
+    .header{
+        width: 768px;
+    }
+      .header__content{
+        width: 100%;
+        padding: 20px 37px;
+    }
 
-  .modal__text{
-    color: #CED4DA;
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
-    width: 448px;
-    height: 72px;
-  }
+    .header__button{
+        font-size: 14px;
+        height: 56px;
+    }
+    .banner__content {
+        padding: 210px 0px 86px;
+        gap: 24px;
+        width: 768px;
+    }
+    .banner__title{
+        font-size: 32px;
+        width: 768px;
+    }
+    .banner__text{
+       font-size:16px ; 
+       width: 600px;
+    }
+    .banner__button{
+        font-size: 14px;
+        height: 42px;
+    }
 
-  .modal__input{
-    width: 408px;
-    height: 30px;
-    display: flex;
-    padding: 14px 20px;
-    align-items: flex-start;
-    gap: 10px;
-    flex-shrink: 0;
-    border: 1px solid var(--gray-1, #191C1F);
-    background: var(--gray-1, #191C1F);
-  }
-
-  .buttonAndTitle{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    width: 448px;
-    height: 51px;
-  }
-
-  .modal__button{
-    margin-top: 29px;
-    color: var(--gray-7, #F8F9FA);
-    text-align: center;
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 150%;
-    display: flex;
-    width: 448px;
-    height: 60px;
-    padding: 0px 32px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border: 1px solid var(--brand-1, #4C6EF5);
-    background: var(--brand-1, #4C6EF5);
-  }
-
-.modal__close{
-   border: none; 
-   background-color: var(--gray-2);
+    .about{
+        width: 100%;
+    }
+    .about__content{
+        width: 768px;
+        padding: 35px;
+    }
+    .about__title{
+    font-size: 25px;
+    width: 266px;
+    }
+    .about__text{
+        font-size: 14px;
+        width: 416px;
+    }
+    .faq__content{
+        padding: 68px 50px;
+        gap: 40px;
+        width: 768px;
+    }
+    .faq__invite{
+        width: 333px;
+        top: 9rem;
+        gap: 18px;
+    }
+    .faq__invite--title{
+        font-size: 27px;
+    }
+    .faq__invite--text{
+        font-size: 14px;
+    }
+    .faq__invite--button{
+        height: 44px;
+        font-size: 13px;
+        padding: 20px 15px;
+    }
+    .faq__questions{
+        width: 279px;
+        gap: 11px;
+    }
+    .faq__questions--title{
+        width: 315px;
+        font-size: 19px;
+        text-align: left;
+    }
+    .faq__questions--text{
+        width: 277px;
+        font-size: 14px;
+    }
+    .depoiments__students{
+        gap: 0;
+    }
+    
+    .depoiments__students--identification{
+        width: 143px;
+    }
+    .depoiments__students--text {
+        font-size: 13px;
+        width: 278px;
+    }
+    .depoiments__students--name{
+        font-size: 22px;
+    } 
+    .depoiments__students--class{
+        font-size: 10px;
+    }
+    .comments__content{
+        gap: 0px;
+        width: 100%;
+        padding: 82px 20px;
+    }
+    .comments__box{
+        width: 200px;
+        height: 183px;
+        padding: 30px 30px;
+        gap: 0px;
+        top: 9rem;
+    }
+    .comments__depoiments{
+        gap: 0px;
+        width: 455px;
+    }
+    .comments__box--title{
+        font-size: 20px;
+    }
+    .comments__box--text{
+        font-size: 13px;
+    }
 }
 
-dialog::backdrop {
-    background: rgba(25, 28, 31, 0.80);
-  }
+@media (max-width:425px){
+    .header{
+        width: 424px;
+    }
+      .header__content{
+        width: 100%;
+        padding: 10px 37px;
+    }
+
+    img{
+        width: 130px;
+        height: 36.4px;
+    }
+
+    .header__button{
+        font-size: 10px;
+        height: 0px;
+        padding: 18px 12px;
+    }
+    dialog{
+        height: 301px;
+        width: 308px;
+        margin: 58px;
+    }
+    .buttonAndTitle{
+        width: 276px;
+        height: 34px;
+    }
+    .modal__container{
+        padding: 12px 30px;
+    }
+    .modal__input{
+        width: 205px;
+        height: 10px;
+    }
+    .modal__button{
+        width: 249px;
+    }
+    .modal__title{
+        font-size: 25px;
+    }
+    .modal__text{
+        font-size: 10px;
+        width: 238px;
+        height: 48px;
+    }
+    .banner__content {
+        padding: 109px 0px 51px;
+        gap: 13px;
+    }
+    .banner__title{
+        font-size: 25px;
+        width: 425px;
+    }
+    .banner__text{
+        font-size: 14px;
+    width: 359px;
+    }
+    .banner__button{
+        font-size: 13px;
+        height: 40px;
+        padding: 12px 11px;
+    }
+
+    .about{
+        width: 100%;
+    }
+    .about__content{
+        padding: 32px 30px;
+        flex-wrap: wrap;
+    }
+    .about__title{
+        font-size: 20px;
+        width: 180px;
+    }
+    .about__text{
+        font-size: 14px;
+        width: 360px;
+    }
+    .faq__content{
+        padding: 32px 47px;
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    .faq__invite{
+        height: 194px;
+        position: relative;
+        width: 330px;
+        top: 0rem;
+        gap: 18px;
+    }
+    .faq__invite--title{
+        font-size: 20px;
+    }
+    .faq__invite--text{
+        font-size: 14px;
+    }
+    .faq__invite--button {
+        font-size: 13px;
+        height: 40px;
+        padding: 12px 11px;
+    }                         
+    .faq__questions{
+        width: 279px;
+        gap: 30px;
+    }
+    .faq__questions--title{
+        font-size: 18px;
+        height: 0px;
+        padding: 12px 11px;
+    }
+    .faq__questions--text {
+        width: 332px;
+        font-size: 12px;
+    }
+    .depoiments__students{
+        gap: 0;
+        width: 0px;
+    }
+    
+    .depoiments__students--identification{
+        width: 119px;
+    }
+    .depoiments__students--text {
+        height: 114px;
+        font-size: 10px;
+        width: 206px;
+    }
+    .depoiments__students--name{
+        font-size: 18px;
+    } 
+    .depoiments__students--class{
+        font-size: 10px;
+    }
+    .comments__content{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        gap: 0px;
+        width: 100%;
+        justify-content: center;
+        padding: 12px 40px;
+
+    }
+    .comments__box{
+        top: 0rem;
+        position: static;
+        width: 270px;
+        height: 154px;
+        padding: 30px 30px;
+        gap: 0px;
+    }
+    .comments__depoiments{
+        margin-top: 53px;
+        gap: 0px;
+        width: 340px;
+    }
+    .comments__box--title{
+        font-size: 20px;
+    }
+    .comments__box--text{
+        font-size: 13px;
+    }
+    .footer__img{
+        width: 130px;
+        height: 36,4;
+    }
+}

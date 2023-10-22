@@ -34,3 +34,8 @@
     line-height: 150%;    
     color: var(--gray-7, #F8F9FA);
 }
+
+.header__button:hover{
+    border: 1px solid var(--brand-2, #364FC7);
+    background: var(--brand-2, #364FC7);
+}
